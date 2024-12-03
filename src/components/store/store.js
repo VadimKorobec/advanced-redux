@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import openCartReducer from "../store/openCartSlice";
+import uiReducer from "../store/uiSlice";
 
 export const store = configureStore({
   reducer: {
-    openCart: openCartReducer,
+    ui: uiReducer,
   },
 });
