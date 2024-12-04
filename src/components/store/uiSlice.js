@@ -20,4 +20,4 @@ export const uiSlice = createSlice({
 
 export const {toggle} = uiSlice.actions;
 
-export default uiSlice.reducer;
+export const uiReducer =  uiSlice.reducer;
