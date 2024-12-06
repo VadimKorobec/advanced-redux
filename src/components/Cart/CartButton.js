@@ -4,6 +4,7 @@ import { toggle } from "../store/uiSlice";
 
 const CartButton = (props) => {
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
+  console.log(totalQuantity)
 
   const dispatch = useDispatch();
 
